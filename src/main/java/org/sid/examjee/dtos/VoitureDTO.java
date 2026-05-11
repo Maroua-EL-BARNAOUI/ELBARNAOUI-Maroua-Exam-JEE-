@@ -8,4 +8,15 @@ public class VoitureDTO extends VehiculeDTO {
     private TypeCarburant typeCarburant;
     private BoiteVitesse boiteVitesse;
 
+    public int getNombrePortes() { return nombrePortes; }
+    public void setNombrePortes(int nombrePortes) { this.nombrePortes = nombrePortes; }
+
+    public TypeCarburant getTypeCarburant() { return typeCarburant; }
+    public void setTypeCarburant(TypeCarburant typeCarburant) { this.typeCarburant = typeCarburant; }
+
+    public BoiteVitesse getBoiteVitesse() { return boiteVitesse; }
+    public void setBoiteVitesse(BoiteVitesse boiteVitesse) { this.boiteVitesse = boiteVitesse; }
+
+    public String getTypeVehicule() { return typeVehicule; }
+    public void setTypeVehicule(String typeVehicule) { this.typeVehicule = typeVehicule; }
 }
